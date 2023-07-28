@@ -1,0 +1,28 @@
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da; /* eje x, eje y, blur, color */
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-decoration: overline underline;
+}
+
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+    /*direction: rtl;*/
+    text-decoration: none;
+    text-indent: 30px; /*sangria*/
+    line-height: 1.5; /*espaciado entre lineas*/
+    white-space: normal;
+    text-shadow: 1p 1px 2px #ced4da;
+}
