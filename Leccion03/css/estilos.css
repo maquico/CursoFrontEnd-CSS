@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 30px; /* con auto se centra el div */
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box; /* te permite agregar el padding y el border sin que se modifique el tamaño del div (en total son 300px definidos en el width) */
+}
+
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 10px; /* con auto se centra el div */
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box; /* te permite agregar el padding y el border sin que se modifique el tamaño del div (en total son 300px definidos en el width) */
+}
+
+/* p.interno{
+    margin-left: inherit; /* hereda el margen del div */ /*
+} */ 
