@@ -1,0 +1,135 @@
+h1{
+    text-align: center;
+    color: darkolivegreen;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 100px;
+    border: 3px dashed greenyellow;
+    overflow: auto;
+}
+
+div.contenedor.flotado{
+    float: left;
+}
+
+
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+}
+
+
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+
+div.contenedor.contenedor3{
+    clear: both;
+    border: 3px dashed darkorange;
+    margin: auto;
+}
+/* img.imagen{
+    width: 100%;
+    opacity: 0.2;
+}
+
+div.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+} */
+
+
+
+/* div.absoluto{
+    border: 3px solid firebrick;
+    position: sticky;
+    top: 0;
+}
+
+
+
+div.estatico{
+    position: static;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+div.absoluto2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 112px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
+} */
+
+/* div.relativo{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+} */
+
+/* NOTAS */
+
+/* por defecto position: static */
+
+/* position: relative;
+    Esta te permite modificar la posicin de un elemento con respecto a su posición original 
+    usando top, right, left y bottom. El elemento relativo se mueve los pixeles indicados pero los demas elementos
+    se colocan como si el elemento estuviera en su posición original estatica.
+*/
+
+/* position: fixed;
+    Este se posiciona con respecto a la ventana del navegador, no se mueve al hacer scroll.
+    No se reserva espacio para este elemento, por lo que los demas elementos se colocan como si no estuviera.
+*/
+
+/* position: absolute;
+    Este se posiciona con respecto al primer elemento padre que tenga position: relative, absolute o fixed.
+    Si no hay ninguno, se posiciona con respecto a la ventana del navegador.
+    No se reserva espacio para este elemento, por lo que los demas elementos se colocan como si no estuviera.
+*/
+
+/* position: sticky;
+    Este se posiciona con respecto a la ventana del navegador, pero se mueve al hacer scroll.
+    No se reserva espacio para este elemento, por lo que los demas elementos se colocan como si no estuviera.
+    Cuando el elemento cabe en la vista actual se comporta como un relative, pero cuando se hace scroll y el elemento
+    se sale de la vista actual, se comporta como un fixed.
+
+    -Internet explorer no lo soporta
+    -Para ser utilizado en Safari se debe agregar position: -webkit-sticky;
+
+*/
+
+/* un elemento POSICIONADO es aquel al que se le especifica un valor de posicion diferente a static */
+
+/* cuando un elemento es posicionado, se coloca encima del ultimo elemento posicionado automaticamente
+A traves del atributo z-index podemos organizar que elementos estan detras del body (valores negativos) 
+y cuales delante del body (valores positivos)*/
+
+/* por defecto overflow: visible, permite que se vea el contenido (ej texto) que se sale de un div 
+(porque el contenedor no es lo suficientemente grande */
+
+    /* overflow: scroll; --> siempre muestra las barras de scroll aunque no sean necesarias
+    overflow: hidden;  --> no muestra el contenido que se sale del div
+    overflow: visible;  */
