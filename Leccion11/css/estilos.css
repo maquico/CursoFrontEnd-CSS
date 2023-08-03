@@ -13,10 +13,18 @@ div.contenedor{
 
 }
 
-div.contenedor.descendiente p{
+div.contenedor.descendiente p{ /* INTERNO (CUALQUIER HIJO */
     background-color: #fdffb6;
 }
 
-div.contenedor.hijo > p {
+div.contenedor.hijo > p {  /* HIJO DIRECTO*/
     background-color: #ffc6ff;
+}
+
+div.contenedor.adyacente + p{ /* ADYACENTE (HERMANO INMEDIATO)*/
+    background-color: #caffbf;
+}
+
+div.contenedor.sibling ~ p{
+    background-color: #9bf6ff;
 }
