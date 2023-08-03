@@ -1,35 +1,45 @@
 h1{
     text-align: center;
-    color: darkolivegreen;
+    color: #a8dadc;
 }
 
 div.contenedor{
-    width: 30%;
-    height: 100px;
-    border: 3px dashed greenyellow;
+    width: 80%;
+    height: 20%;
     overflow: auto;
-}
-
-div.contenedor.flotado{
-    float: left;
-}
-
-
-div.contenedor.flotado.contenedor1{
-    border: 3px dashed greenyellow;
-}
-
-
-div.contenedor.flotado.contenedor2{
-    border: 3px dashed cornflowerblue;
-    float: right;
-}
-
-div.contenedor.contenedor3{
-    clear: both;
-    border: 3px dashed darkorange;
     margin: auto;
+    border: 3px dashed #a8dadc;
 }
+
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 20px;
+    padding: 5px;
+    display: inline-block; 
+}
+
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 5px
+}
+
+.menu a{
+    text-decoration: none;
+    color: #f1faee
+}
+
 /* img.imagen{
     width: 100%;
     opacity: 0.2;
@@ -133,3 +143,5 @@ y cuales delante del body (valores positivos)*/
     /* overflow: scroll; --> siempre muestra las barras de scroll aunque no sean necesarias
     overflow: hidden;  --> no muestra el contenido que se sale del div
     overflow: visible;  */
+
+/* inline-block te permite agregar a un elemento inline como span o img, propiedades de un elemento block como height o padding */
