@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    color: #e63046;
+    text-shadow: 2px 2px 4px #a8dadc;
+}
+
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+
+/* NOTAS */
+
+/* Display flex en un div coloca automaticamente en linea los elementos dentro de este, aunque sean de tipo block
+Se hace de manera automatica hacia la izquierda. */
+
+/* Flex-direction: row coloca los elementos en linea de izquierda a derecha. */
+/* Flex-direction: row-reverse coloca los elementos en linea pero de derecha a izquierda. */
+/* Flex-direction: column coloca los elementos en columna de arriba hacia abajo. */
+/* Flex-direction: column-reverse coloca los elementos en columna pero de abajo hacia arriba. */
+
+    /*flex-wrap: wrap; */
+    /* Con flex-wrap se puede hacer que los elementos se coloquen en varias lineas, en caso de que no quepan en una sola,
+    evitando que queden fuera del contenedor. */
+    
+
+/* Con flex se puede aplicar el atributo justify-content para alinear los elementos:
+    flex-start:     a la izquierda
+    flex-end:       a la derecha
+    center:         al centro
+    space-between:  separados con los elementos al borde y el mismo espacio entre ellos
+    space-around:   separados con espacio tanto a la izquierda como a la derecha
+    space-evenly:   separados con el mismo espacio entre ellos
+
+Algo parecido se puede hacer con el atributo align-items, pero este alinea de forma vertical.
+Con align-items se puede alinear los elementos:
+    flex-start:     arriba
+    flex-end:       abajo
+    center:         al centro
+    baseline:       alineados por la linea base (tope inferior o superior de las letras, se ve afectado por el font-size)
+    stretch:        estirados para ocupar todo el espacio vertical
