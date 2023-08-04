@@ -9,7 +9,8 @@ div.contenedor{
     background-color: #560bad;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch; 
+    /* align-content: center; */
     height: 300px;
 }
 
@@ -52,3 +53,13 @@ Con align-items se puede alinear los elementos:
     center:         al centro
     baseline:       alineados por la linea base (tope inferior o superior de las letras, se ve afectado por el font-size)
     stretch:        estirados para ocupar todo el espacio vertical
+
+Con align-content se puede alinear los elementos cuando estos se colocan en varias lineas, es decir, cuando se usa flex-wrap.
+Se puede centrar y modificar el espacio vertical entra las lineas de elementos
+
+Con order: n se puede modificar el orden en que se van a mostrar los elementos html
+por defecto todo elemento tiene order:0
+
+Con flex-grow: n se puede modificar el tamaño de los elementos html afectados por flex
+por defecto todo elemento tiene flex-grow:1, si se le asigna un valor mayor a 1, este crecera mas que los demas proporcionalmente
+se ajusta responsivamente.
